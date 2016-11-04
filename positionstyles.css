@@ -76,6 +76,7 @@
     width: 100%;
     height: 100px; 
     background-color: blue; 
+    margin-top: 20px;
      } 
      /* Activity 4 styles */ 
     .red4 {
@@ -139,17 +140,18 @@
     background-color: red; 
     } 
     .green6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: green; 
+    width: 200px; 
+    height: 200px; 
+    background-color: green;
+    display: block;
+    float: left;
+    
      } 
     .yellow6 {
-    width: 100px; 
-    height: 100px; 
+    width: 100%; 
     background-color: gold;
-    float: left;
-    margin: inherit;
-    
+ //   display: inline-block;
+//    margin-top: -100px;
     } 
     .blue6 {
     width: 100%; 
