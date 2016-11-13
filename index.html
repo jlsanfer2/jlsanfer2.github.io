@@ -1,72 +1,94 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-          <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt');
+
+<head>
+    <meta charset="utf-8">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt');
+        img {
+            max-width: 100%;
+        }
         
-            #content {
-                width: 80%;
-                max-width: 960px;
-                margin: 0 auto;
-                padding: 10px;
-            }
-            img {
-                max-width: 100%;
-            
-            }
-            nav {
-                background-color: lightgoldenrodyellow;
-            }
-            h1,h2,h3,h4,h5,h6 {
-                color: #6495ED;
-                font-family: "Rock Salt", "Palatino Linotype", serif;
-                line-height: 1.2;
-                margin-bottom: .2em;
-                margin-top: .5em;
-            } 
-            body{
-                font-family: Arial, serif;
-            }
-            #section2{
-                background: #FFBA3D;
-            }
-            #bottom-section{
-                text-align: center;
-                width: 70%;
-                margin: 0 auto;
-            }
-            #section1, 
-            #section2, 
-            #bottom-section {
-                padding: 10px;
-            }
-            p {
-                line-height: 1.5;
-                font-size: 1.1em;
-            }
-            
-        </style>
-    </head>
-   
-    <body>
+        #content {
+            width: 80%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+        nav {
+            background-color: lightgoldenrodyellow;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #6495ED;
+            font-family: "Rock Salt", "Palatino Linotype", serif;
+            line-height: 1.2;
+            margin-bottom: .2em;
+            margin-top: .5em;
+        }
+        
+        body {
+            font-family: Arial, serif;
+        }
+        
+        #section2 {
+            background: #FFBA3D;
+        }
+        
+        #bottom-section {
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
+        }
+        
+        #section1,
+        #section2,
+        #bottom-section {
+            padding: 10px;
+            display: flex;
+        }
+        
+        .leftcol, .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        p {
+            line-height: 1.5;
+            font-size: 1.1em;
+        }
+        
+        #banner img {
+            resize: 100%;
+        }
+    </style>
+</head>
+
+<body>
     <div id="content">
         <img src="logo_gray.png" alt="Dry Oar boating logo" width="240">
-        <nav>            
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <div id="menu1">
-                     <li> <a href="#">Rivers</a></li>
+                    <li> <a href="#">Rivers</a></li>
                 </div>
                 <li><a href="#section2">FAQ </a></li>
                 <li>Blog</li>
                 <li>Schedule</li>
                 <li>Contact Us</li>
             </ul>
-        </nav>    
-        
-        <img alt="Wide Image" src="http://brothert.net/dryoar/images/river-wide3.jpg">
+        </nav>
+
+        <img alt="Wide Image" src="http://brothert.net/dryoar/images/river-wide.JPG">
 
         <section id="section1">
             <div class="leftcol">
@@ -74,29 +96,34 @@
                 </p>
             </div>
             <div class="rightcol">
-            <img src="http://brothert.net/dryoar/images/river-evening.jpg" alt="Nature picture with a rive and a big nice mountain" width="420" >
-             </div>
+                <img src="http://brothert.net/dryoar/images/river-evening.jpg" alt="Nature picture with a rive and a big nice mountain" width="100%">
+            </div>
         </section>
-        
+
         <section id="section2" class="changetextcolor">
-            <h1>We invite you to come relax with us on one of the amazing rivers we visit.</h1>
+            <div class="leftcol">
+                <img src="http://brothert.net/dryoar/images/snake-rapid1.jpg" alt="Rapid on wild waters" width="100%">
+            </div>
+            <div class="rightcol">
+                <h1>We invite you to come relax with us on one of the amazing rivers we visit.</h1>
+            </div>
         </section>
-        
-        <section id="bottom-section">    
+
+        <section id="bottom-section">
             <p>Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
         </section>
-        
+
         <footer>
-            <p>&copy; 2016 Dry Oar || J Leonardo Sanchez 
-            <a href="https://plus.google.com/" target="_blank"> <img src="google_plus.png" width="30" align="right">
-            </a>
-            <a href="http://youtube.com/" target="_blank"> <img src="youtube.png" width="30" align="right">
-            </a>
-            <a href="http://instagram.com/" target="_blank"> <img src="instagram.jpg" width="30" align="right">
-            </a>
+            <p>&copy; 2016 Dry Oar || J Leonardo Sanchez
+                <a href="https://plus.google.com/" target="_blank"> <img src="google_plus.png" width="30" align="right">
+                </a>
+                <a href="http://youtube.com/" target="_blank"> <img src="youtube.png" width="30" align="right">
+                </a>
+                <a href="http://instagram.com/" target="_blank"> <img src="instagram.jpg" width="30" align="right">
+                </a>
             </p>
         </footer>
     </div>
-    </body>
-   
+</body>
+
 </html>
