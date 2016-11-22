@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt');
         #logo {
             position: relative;
-            width: 12em;
+            width: 10em;
+            margin-left: 15px;
         }
         img {
             max-width: 100%;
@@ -26,7 +27,7 @@
             display: flex;
             justify-content: space-around;
             flex-flow: wrap;
-            padding-left: 13em;
+            padding-left: 12em;
             margin-top: -4.2em;
             line-height: 2.5em;
         }
