@@ -18,7 +18,7 @@
 //Remove bullets
 //Move nav bar under the logo
 */      nav {
-            background-color: lightgoldenrodyellow;
+            background-color: #E6E6E6;
         }
     
         nav > ul{
@@ -34,11 +34,20 @@
         nav li{
             flex: 1 0 3em;
         }
-nav a:link, nav a:visited {
-    color: burlywood;
-    text-decoration: none;
-}
-        
+        nav a:link, nav a:visited {
+            color: #486483;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover{
+            color: #FFA400;
+            text-decoration: bold;
+        }
+        nav a:active{
+            color: #fff;
+            background-color: #356DAF;
+        }
+ 
         h1,
         h2,
         h3,
