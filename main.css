@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt');
+        #logo {
+            position: relative;
+            width: 12em;
+        }
         img {
             max-width: 100%;
         }
@@ -13,7 +17,7 @@
 //space on links: margin, flex
 //Remove bullets
 //Move nav bar under the logo
-*/        nav {
+*/      nav {
             background-color: lightgoldenrodyellow;
         }
     
@@ -22,9 +26,8 @@
             display: flex;
             justify-content: space-around;
             flex-flow: wrap;
-            margin-top: -5em;
-            margin-left: 250px;
-            
+            padding-left: 13em;
+            margin-top: -4.2em;
             line-height: 2.5em;
         }
         
@@ -82,5 +85,6 @@ nav a:link, nav a:visited {
         }
         
         #banner img {
-            resize: 100%;
+            resize: 100%; 
+            align-items: center;
         }
