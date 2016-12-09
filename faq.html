@@ -21,21 +21,21 @@
 <body>
     <div id="content">
         <div id="logo"> 
-            <img src="logo_gray.png" alt="Dry Oar boating logo" width="240" style="border:2px gray";>
+            <img src="logo_gray.png" alt="Dry Oar boating logo" width="240" border="2px" border-color=#FFA400>
         </div>
         <nav>
             <ul>
                 <li> <a href="index.html">Home </a></li>
                 <li> <a href="#">Rivers </a></li>
-                <li> <a href="faq.html">FAQ </a></li>
+                <li> <a href="faq.html" font-color=#FFA400>FAQ </a></li>
                 <li> <a href="#">Blog </a></li> 
                 <li> <a href="schedule.html">Schedule </a></li>
                 <li> <a href="#">Contact Us </a></li>
             </ul>
         </nav>
-<br><br>
+<br>
         <div id="top_banner">
-            <img alt="Wide Image" src="http://brothert.net/dryoar/images/river-wide2.JPG" size=100%>
+            <img alt="Wide Image" src="http://brothert.net/dryoar/images/river-wide2.JPG" width="100%">
         </div>
 <h2>FAQ section</h2>
 
@@ -72,14 +72,26 @@
         </div>
 </DIV>
         
-<DIV class="FAQ" onclick="toggle('faq6')">
+<DIV class="FAQ" onclick="toggle('faq7')">
     How far in advance should I book my trip?
-        <div id="faq6" class="FAA">If you have specific dates you need, we recommend booking a year in advance. If you can be more flexible 6 months in advance is usually sufficient.</div>
+        <div id="faq7" class="FAA">If you have specific dates you need, we recommend booking a year in advance. If you can be more flexible 6 months in advance is usually sufficient.</div>
 </DIV>
 
-<DIV class="FAQ" onclick="toggle('faq7')">
-    Question that you cound't find...
-        <div id="faq7" class="FAA">form</div>
+<DIV class="FAQ" onclick="toggle('faq8')">
+    Didn't find your question?...
+        <div id="faq8" class="FAA">
+            <form action="action_page.php">
+              Type your question and add your email or phone number.
+              <br>
+              <textarea name="message" rows="5" cols="50" cursor="show">
+                -
+              </textarea>
+              <br><br>
+              <input type="submit">
+              <br>
+            </form>
+    
+        </div>
 </DIV>
         
         <footer>
