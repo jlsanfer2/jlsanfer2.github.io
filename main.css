@@ -83,6 +83,9 @@
             display: flex;
         }
         
+        #footer-section{
+            background: #FFDA96;
+        }
         .leftcol, .rightcol {
             width: 48%;
             flex: 1 0 15em;
