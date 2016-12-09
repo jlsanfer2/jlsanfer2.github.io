@@ -98,3 +98,7 @@
             resize: 100%; 
             align-items: center;
         }
+
+.FAQ { cursor:hand; cursor:pointer; border:0px solid gray; width:90%; margin-left: 2em; margin-bottom: 0.5em; background: #EDEDED; color: #304053}
+.FAA { margin-left: 1em; margin-top: 0.5em; margin-bottom: 1em; display: none;
+    
