@@ -38,7 +38,7 @@
         nav a:link, nav a:visited {
             color: #486483;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1.1em;
         }
         nav a:hover{
             color: #FFA400;
@@ -48,7 +48,11 @@
             color: #fff;
             background-color: #356DAF;
         }
- 
+        li a.active{
+            color: #FFA400;
+            font-size: 1.2em;
+            text-decoration: bold;
+        }
         h1,
         h2,
         h3,
@@ -103,9 +107,9 @@
         }
 
 .FAQ { 
-    cursor:hand; cursor:pointer; border:0px width:90%; margin-left:2em; margin-bottom:0.2em; background:#EDEDED; color:#766A45; font-size: 1.1em; line-height: 1.3em; font-weight: bold;
+    cursor:hand; cursor:pointer; border:0px width:95%; margin-left:2em; margin-bottom:0.2em; background:#EDEDED; color:#766A45; font-size: 1.1em; line-height: 1.3em; font-weight: bold;
 }
 
-.FAA { margin-left: 1em; margin-top: 0.5em; margin-bottom: 1.2em; display: none; color:#304053; font-size: 0.9em; line-height: 1.4em; font-weight:100; margin-right: 2em;
+.FAA { margin-left: 1em; margin-top: 0.1em; margin-bottom: 1.2em; display: none; color:#304053; font-size: 0.9em; line-height: 1.4em; font-weight:100; margin-right: 2em;
 } 
     
