@@ -83,7 +83,7 @@
         #section1,
         #section2,
         #bottom-section,
-        #sectionschedule, {
+        #sectionschedule {
             padding: 10px;
             display: flex;
         }
@@ -93,29 +93,44 @@
         }
         .leftcol, .rightcol {
             width: 48%;
+            flex-flow: row wrap;
             flex: 1 0 15em;
             margin: .5em;
         }
-.option1, .option2, .option3, .option4{
-    width: 50%;
-    flex: 1 0 10em;
+.option1 {
+    width: 350px;
     margin: .5em;
 }
-.option2,{
-    vertical-align: text-top;
+.option2{
+    width: 350px; 
+    margin: .5em;
+/*    margin-top: 2100px;
+    margin-left: 200px;
+*/}
+.option3{
+   width: 350px; 
+   margin: .5em;
+}
+.option4{
+    width: 350px; 
+    margin: .5em;
 }
 #sectionschedule{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    vertical-align: inherit;
 }
 .leftschedule{
     width: 20%;
+    vertical-align: top;
   /*  flex: 1 0 15em;
     margin: .5em;
     background: #E6E6E6;*/
 }
 .rightschedule{
-    width: 70%;
-    flex: 1 0 15em;
+    width: 78%;
+    display: flex;
     margin: .5em;
 }
         

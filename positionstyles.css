@@ -16,7 +16,7 @@
     width: 100px; 
     height: 100px; 
     background-color: red;
-    flex: 1 0 outo;
+    flex: 1 0 auto;
     } 
     .green1 {
     width: 100px; 
@@ -123,8 +123,7 @@
     .green5 { 
     width: 45%; 
     height: 100px; 
-    background-color: 
-    green; 
+    background-color: green; 
     float: left;
     margin-top: -50px;
     
@@ -172,7 +171,7 @@
     height: 100px; 
     background-color: blue; 
     } 
-     .activity {
+    .activity {
     width: 600px; 
     margin: 20px auto; 
     font-family: Arial, sans-serif; 
