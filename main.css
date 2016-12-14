@@ -82,7 +82,8 @@
         
         #section1,
         #section2,
-        #bottom-section {
+        #bottom-section,
+        #sectionschedule, {
             padding: 10px;
             display: flex;
         }
@@ -95,6 +96,28 @@
             flex: 1 0 15em;
             margin: .5em;
         }
+.option1, .option2, .option3, .option4{
+    width: 50%;
+    flex: 1 0 10em;
+    margin: .5em;
+}
+.option2,{
+    vertical-align: text-top;
+}
+#sectionschedule{
+    display: flex;
+}
+.leftschedule{
+    width: 20%;
+  /*  flex: 1 0 15em;
+    margin: .5em;
+    background: #E6E6E6;*/
+}
+.rightschedule{
+    width: 70%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
         
         p {
             line-height: 1.5em;
@@ -106,10 +129,10 @@
             align-items: center;
         }
 
-.FAQ { 
-    cursor:hand; cursor:pointer; border:0px width:95%; margin-left:2em; margin-bottom:0.2em; background:#EDEDED; color:#766A45; font-size: 1.1em; line-height: 1.3em; font-weight: bold;
-}
+        .FAQ { 
+            cursor:hand; cursor:pointer; border:0px width:95%; margin-left:2em; margin-bottom:0.2em; background:#EDEDED; color:#766A45; font-size: 1.1em; line-height: 1.3em; font-weight: bold;
+        }
 
-.FAA { margin-left: 1em; margin-top: 0.1em; margin-bottom: 1.2em; display: none; color:#304053; font-size: 0.9em; line-height: 1.4em; font-weight:100; margin-right: 2em;
-} 
+        .FAA { margin-left: 1em; margin-top: 0.1em; margin-bottom: 1.2em; display: none; color:#304053; font-size: 0.9em; line-height: 1.4em; font-weight:100; margin-right: 2em;
+        } 
     
